@@ -1,0 +1,5 @@
+LagoLlanquihue;Lacustre;15000
+VolcanOsorno;Aventura;25000
+Frutillar;Cultural;12000
+PuertoVaras;Gastronomico;18000
+SaltosPetrohue;Naturaleza;22000
