@@ -2,24 +2,49 @@
 
 ## Descripción
 
-Este proyecto fue realizado para la actividad Llanquihue Tour. Su objetivo es leer información de tours desde un archivo de texto, almacenarla en un ArrayList y mostrar los resultados en consola aplicando un filtro por precio.
+Este proyecto fue desarrollado para la actividad de Programación Orientada a Objetos.
 
-## Estructura del proyecto
+El sistema permite leer información de tours turísticos desde un archivo de texto, almacenarlos en un ArrayList y mostrarlos por consola aplicando filtros de búsqueda.
 
-* **app:** contiene la clase Main, encargada de ejecutar el programa.
-* **data:** contiene la clase GestorDatos, responsable de leer el archivo de texto y cargar los datos.
-* **model:** contiene la clase Tour, que representa cada tour turístico.
-* **resources:** contiene el archivo tours.txt con la información utilizada por el sistema.
+## Paquetes implementados
+
+* app
+* data
+* model
+* resources
+
+## Clases implementadas
+
+### Main
+
+Clase principal que ejecuta el programa.
+
+### GestorDatos
+
+Lee el archivo tours.txt y carga los datos.
+
+### Tour
+
+Representa un tour turístico.
+
+### Guia
+
+Representa al guía turístico asociado a cada tour.
 
 ## Funcionamiento
 
-Al ejecutar la clase Main, el programa:
+1. Lee los datos desde tours.txt.
+2. Guarda los datos en un ArrayList.
+3. Muestra todos los tours.
+4. Aplica un filtro por precio.
+5. Muestra los tours mayores a $18.000.
 
-1. Lee los datos almacenados en el archivo tours.txt.
-2. Crea objetos de tipo Tour.
-3. Almacena los objetos en un ArrayList.
-4. Muestra todos los tours registrados.
-5. Filtra y muestra únicamente los tours cuyo precio es superior a $18.000.
+## Tecnologías utilizadas
+
+* Java
+* IntelliJ IDEA
+* Programación Orientada a Objetos
+
 
 ## Autor
 
