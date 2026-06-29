@@ -1,49 +1,45 @@
-# Llanquihue Tour
+# LlanquihueTourApp
 
 ## Descripción
 
-Este proyecto fue desarrollado para la actividad de Programación Orientada a Objetos.
+Este proyecto fue desarrollado para la actividad de la Semana 6 de la asignatura Desarrollo Orientado a Objetos I.
 
-El sistema permite leer información de tours turísticos desde un archivo de texto, almacenarlos en un ArrayList y mostrarlos por consola aplicando filtros de búsqueda.
+El objetivo es implementar una jerarquía de clases utilizando herencia simple para representar distintos servicios turísticos de la agencia Llanquihue Tour.
 
-## Paquetes implementados
+## Clases creadas
 
-* app
-* data
-* model
-* resources
+### Paquete `model`
 
-## Clases implementadas
+* ServicioTuristico (superclase)
+* RutaGastronomica
+* PaseoLacustre
+* ExcursionCultural
+* Tour (clase de actividades anteriores)
+* Guia (clase de actividades anteriores)
 
-### Main
+### Paquete `data`
 
-Clase principal que ejecuta el programa.
+* GestorServicios
+* GestorDatos (clase de actividades anteriores)
 
-### GestorDatos
+### Paquete `app`
 
-Lee el archivo tours.txt y carga los datos.
+* Main
 
-### Tour
+## Conceptos utilizados
 
-Representa un tour turístico.
-
-### Guia
-
-Representa al guía turístico asociado a cada tour.
-
-## Funcionamiento
-
-1. Lee los datos desde tours.txt.
-2. Guarda los datos en un ArrayList.
-3. Muestra todos los tours.
-4. Aplica un filtro por precio.
-5. Muestra los tours mayores a $18.000.
-
-## Tecnologías utilizadas
-
-* Java
-* IntelliJ IDEA
 * Programación Orientada a Objetos
+* Herencia
+* Encapsulamiento
+* Sobrescritura del método `toString()`
+* Uso de `super()`
+* Validación de datos mediante constructores
+
+## Instrucciones de ejecución
+
+1. Abrir el proyecto en IntelliJ IDEA.
+2. Ejecutar la clase `Main`.
+3. El programa mostrará por consola dos rutas gastronómicas, dos paseos lacustres y dos excursiones culturales.
 
 
 ## Autor
